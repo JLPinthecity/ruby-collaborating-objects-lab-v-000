@@ -39,7 +39,9 @@ def self.create_by_name(name)
 end
 
 def print_songs
-  self.songs.name
+  songs.each do |song| 
+    song.name
+  end
 end
 
 
