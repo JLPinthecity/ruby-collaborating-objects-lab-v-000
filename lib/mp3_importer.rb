@@ -13,6 +13,3 @@ class MP3Importer
       files.each{|f| Song.new_by_filename(f)}
     end
   end
-
-
-
